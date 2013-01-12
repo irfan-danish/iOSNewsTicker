@@ -15,4 +15,5 @@
     NSInteger currentNews;
 }
 @property (retain, nonatomic) IBOutlet UIScrollView *scrollview;
+- (IBAction)actionListner:(id)sender;
 @end

@@ -124,4 +124,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)actionListner:(id)sender {
+    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/irfandanish"];
+    [[UIApplication sharedApplication] openURL:url];
+}
 @end
