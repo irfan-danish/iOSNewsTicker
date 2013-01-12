@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    NSTimer *myTimer;
+    NSMutableArray *allNews;
+    NSInteger currentNews;
+}
+@property (retain, nonatomic) IBOutlet UIScrollView *scrollview;
 @end
